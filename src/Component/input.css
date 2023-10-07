@@ -1,0 +1,53 @@
+.Input{
+    margin-top: 10px;
+    color: blue;
+   width: 150px;
+   height: 30px; 
+   border: 2px solid red;
+   border-radius: 7px;
+}
+
+.Input:hover{
+    background-color: chartreuse;
+    color: fuchsia;
+   
+}
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2.5px solid rgb(3, 0, 14);
+    
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+th {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e8926d;
+    color:rgb(0, 0, 7);
+    font-weight: bolder;
+    border:2px solid black;
+}
+
+tr {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eaaccf; 
+    font-weight: bold;
+    border:2px solid black;
+}
+
+tr:hover {
+    background-color:black;
+    color: white;
+    
+}
+th,td:hover{
+    border: 2px white;
+}
