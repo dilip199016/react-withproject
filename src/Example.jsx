@@ -37,5 +37,5 @@ export const MultiElement=()=>{
         <h2>I am h2</h2>,
          <h3>I am H3 </h3>,
          <h1>I am h1</h1>
-    ]
+    ];
 }
