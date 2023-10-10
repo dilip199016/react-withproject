@@ -1,3 +1,4 @@
+import "./user.css"
 import { useState } from "react";
 
 function UseState(){
@@ -5,8 +6,19 @@ function UseState(){
     const [heading, setHeading]=useState("this is the React");
 
     const changeHeading=()=>{
-    setHeading(`this is the Heading + ${Math.random()*100}`);
+    setHeading(`Hello I am useState`);
 };
+
+
+const [heading2, setHeading2]=useState("this is the React part two");
+const Click=()=>{
+    setHeading(`I am second Part`);
+};
+
+
+
+
+
 console.log("heading",heading);
     return(
         <div> 
@@ -15,9 +27,12 @@ console.log("heading",heading);
             {
 
             }
-            <button onClick={changeHeading}>Click</button>
-        </div>
+            <button onClick={changeHeading}>Click</button><br/><br/>
+            
+            <button onClick={Click}>Check</button>
+</div>
     );
 }
 
 export default UseState
+

@@ -16,12 +16,12 @@ table {
     width: 40%;
     border-collapse: collapse;
     margin: 20px auto;
-    border: 2.5px solid rgb(3, 0, 14);
+    /* border: 2.5px solid rgb(3, 0, 14); */
     
 }
 
 th, td {
-    border: 2px solid black;
+    border: 2px solid rgb(247, 244, 244);
     padding: 10px;
     text-align: center;
 }
@@ -30,24 +30,26 @@ th, td {
 
 th {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #e8926d;
-    color:rgb(0, 0, 7);
+    /* background-color: #e8926d; */
+    /* color:rgb(0, 0, 7); */
     font-weight: bolder;
-    border:2px solid black;
+    border:2px solid rgb(24, 1, 1);
 }
 
 tr {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #eaaccf; 
+    background-color: #b90c6e; 
     font-weight: bold;
     border:2px solid black;
 }
 
 tr:hover {
-    background-color:black;
+    background-color:rgb(107, 101, 101);
     color: white;
-    
-}
+    border: 2px solid red;
+    }
 th,td:hover{
     border: 2px white;
 }
+
+
