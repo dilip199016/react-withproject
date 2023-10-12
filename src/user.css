@@ -4,6 +4,8 @@ boby{
 
 button{
     background-color: chartreuse;
+    height: 30px;
+    border: 2px sold black;
 }
 
 
@@ -11,10 +13,10 @@ button:hover{
     text-align: center;
     width: fit-content;
     height: 30px;
-    background-color: rgb(13, 11, 1);
+    background-color: rgb(255, 255, 255);
     color: red;
     border-radius: 5px;
-    border: 4px white;
+    border: 4px black;
 }
 .SetHeading{
     color: darkblue;
@@ -24,4 +26,9 @@ button:hover{
 .Myhook{
     text-align: center;
     align-items: center;
+}
+
+h3{
+    font-size: 55px;
+    color: red;
 }

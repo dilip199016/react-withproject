@@ -15,18 +15,18 @@ function Myhook(){
 
 //Another useState code
 
-const [head2,setHead2]=useState('I am another Pratice point');
-const changed2=()=>{
-   setHead2(`I am another Changed i your React JS code ${Math.ceil(Math.random()*10)+50}`);
-   console.log("head2",head2);
-}
+// const [head2,setHead2]=useState('I am another Pratice point');
+// const changed2=()=>{
+//    setHead2(`I am another Changed i your React JS code ${Math.ceil(Math.random()*10)+50}`);
+//    console.log("head2",head2);
+// }
 
 
  return(
     <div><h1>{head}</h1>
         <button className="Myhook" onClick={changed}>Clicker</button>
-<h1>{head2}</h1>
-        <button onClick={changed2}>Clicker-2.0</button>
+{/* <h1>{head2}</h1> */}
+        {/* <button onClick={changed2}>Clicker-2.0</button> */}
     </div>
  );
 }
