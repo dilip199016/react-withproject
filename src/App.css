@@ -1,6 +1,4 @@
- h1{
-    color: blue;
-} 
+
 body{
     background-color: aqua;
 margin: 0;    
@@ -20,6 +18,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   text-align: center;
  align-items: center;
  justify-content: center;color: white;
+
 }
 .bg-light{
     background-color: rgb(60, 192, 8);
@@ -34,7 +33,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 .bg-dark{
     background-color: rgb(18, 15, 231);
-
+ border-radius: 30% 25% 60%;
 }
 .bg-red{
     background-color: red;

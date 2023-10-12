@@ -9,12 +9,19 @@ button{
 
 button:hover{
     text-align: center;
-    width: 90px;
+    width: fit-content;
     height: 30px;
-    background-color: gold;
+    background-color: rgb(13, 11, 1);
     color: red;
     border-radius: 5px;
+    border: 4px white;
 }
 .SetHeading{
     color: darkblue;
+}
+
+
+.Myhook{
+    text-align: center;
+    align-items: center;
 }
